@@ -1,14 +1,21 @@
 {
   "name": "el-easy-select",
   "version": "0.1.0",
-  "private": true,
+  "main": "lib/el-easy-select.umd.min.js",
+  "private": false,
+  "keyword": "el-easy-select el-select easy",
+  "description": "基于element组件中Select选择器扩展出来的支持多数据的下拉选择器",
+  "author": "zhangh",
   "scripts": {
+    "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name el-easy-select --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.3",
     "vue": "^2.6.11"
   },
   "devDependencies": {

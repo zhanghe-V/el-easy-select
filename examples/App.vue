@@ -1,18 +1,32 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <el-easy-select
+      :options="options"
+      :max="30" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+  },
+  data() {
+    return {
+      options: [
+        {label: '1', value: '1'},
+        {label: '11', value: '11'},
+        {label: '111', value: '111'},
+        {label: '1111', value: '11111'},
+        {label: '2', value: '2'},
+        {label: '22', value: '22'},
+        {label: '3', value: '3'},
+        {label: '333', value: '333'},
+      ]
+    }
+  },
 }
 </script>
 

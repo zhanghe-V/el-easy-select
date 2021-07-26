@@ -1,5 +1,5 @@
-import treeSelect from './src/index.vue'
-treeSelect.install = function(Vue) {
-    Vue.component(treeSelect.name, treeSelect)
+import elEasySelect from './src/index.vue'
+elEasySelect.install = function(Vue) {
+    Vue.component(elEasySelect.name, elEasySelect)
 };
-export default treeSelect
+export default elEasySelect

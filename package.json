@@ -1,6 +1,6 @@
 {
   "name": "el-easy-select",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/el-easy-select.umd.min.js",
   "private": false,
   "keyword": "el-easy-select el-select easy",
